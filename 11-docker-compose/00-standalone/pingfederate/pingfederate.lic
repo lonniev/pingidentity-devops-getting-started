@@ -1,0 +1,15 @@
+ID=282afc13-69e8-49cb-a50f-d0586fd88c08
+Name='PTC'
+Organization='PTC'
+IssuedBy=PTC Inc.
+Product=PingFederate
+Version=11.0
+IssueDate=2022-03-09
+EnforcementType=3
+ExpirationDate=2025-04-02
+Tier=Subscription
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+SignCode=FF1F
+Signature=302C021471449090D5A8FEB85512DD4836B4A320C6382C67021448B7BCFEDB185726A3CFDFC8760E1954E1123F84

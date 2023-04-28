@@ -27,17 +27,14 @@ services:
       - PF_LDAP_USERNAME="Administrator"
       - PF_LDAP_PASSWORD="2FederateM0re"
     env_file:
-      - ${HOME}/.pingidentity/config
+      - pingidentity.config
     ports:
       - "9031:9031"
       - "9999:9999"
     networks:
       - pingnet
     volumes:
-      - pingfederate-out:/opt/out
+      - ./pingfederate-volume:/opt/out
 
 networks:
   pingnet:
-
-volumes:
-  pingfederate-out:
